@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Rentify Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Rentify, a web application designed to streamline the process of renting properties. This README file will guide you through the flow of the project and its features.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+Rentify is a web application that facilitates the interaction between property sellers and buyers. It allows sellers to list their properties and buyers to browse and express interest in these properties. The application ensures a user-friendly experience with a clear separation of functionalities for buyers and sellers.
 
-### `npm start`
+## Developer Information
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Developer:** Shreyal Jain  
+**Position:** 3rd Year B.Tech CSE Student  
+**Role:** Full Stack Web Developer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Application Flow
 
-### `npm test`
+### Landing Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Purpose:** The entry point of the application.
+- **Features:**
+  - Users can choose to sign up or log in.
 
-### `npm run build`
+### Sign Up
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Purpose:** To allow new users to create an account.
+- **Process:**
+  - Users provide necessary information to create an account.
+  - Upon successful account creation, users are directed to the login page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Purpose:** To authenticate users and direct them to the appropriate dashboard.
+- **Features:**
+  - Users select their role as either a buyer or a seller.
+  - Depending on the selection, users are redirected to the respective page.
 
-### `npm run eject`
+### Seller Dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Features:**
+  - **Property Form:**
+    - Sellers fill out a form with details about the property they wish to sell.
+    - On submission, the property details are uploaded to the database.
+  - **Show My Properties Button:**
+    - Displays a list of all properties uploaded by the seller.
+  - **Property Management:**
+    - Sellers can update or delete their property listings.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Buyer Dashboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Features:**
+  - **Property Listings:**
+    - Buyers can browse through all properties listed by various sellers.
+  - **Interest Button:**
+    - By clicking "I am interested," buyers can view the seller's contact details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Logout
 
-## Learn More
+- **Purpose:** To end the user session and clear local storage.
+- **Process:**
+  - Users can log out by clicking the logout button.
+  - This action clears the local storage and redirects users to the home page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Authentication
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Purpose:** To ensure that users can access the functionalities only after logging in.
+- **Process:**
+  - If a user tries to access any feature without logging in, they are redirected to the login page.
 
-### Code Splitting
+### Access Control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Logged-in Users:**
+  - Can access all functionalities specific to their role (buyer or seller).
+- **Non-Logged-in Users:**
+  - Are redirected to the login page if they try to access restricted areas.
 
-### Analyzing the Bundle Size
+## Note on Responsiveness
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please note that the UI is not 100% responsive. Kindly forgive any inconvenience this may cause.
 
-### Making a Progressive Web App
+## Dummy Account for Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To try out the application, you can use the following dummy email and password:
 
-### Advanced Configuration
+- **Email:** rajesh123@gmail.com
+- **Password:** 123456
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Conclusion
 
-### Deployment
+Rentify provides a seamless platform for property rental management, catering to both sellers and buyers with dedicated features for each. Enjoy using Rentify to simplify your property rental processes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For any further assistance, please contact the developer.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Shreyal Jain**  
+**3rd Year B.Tech CSE Student**
