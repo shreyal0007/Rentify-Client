@@ -1,0 +1,22 @@
+.contactcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #f0f0f0;
+}
+.maincontactdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.divv2{
+    margin-left: 2rem;
+    text-align: left;
+}

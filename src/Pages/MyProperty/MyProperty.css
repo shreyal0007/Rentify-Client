@@ -1,0 +1,58 @@
+.mypropertydiv{
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    align-items: center;
+    background-color: #d1fae5;
+    justify-content: center;  
+   
+}
+/* 
+.mypropertyheading{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mypropertytext{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mypropertyheaderdiv{
+    display: flex;
+    height: 10vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.mypropertyheaderdiv{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    background-color:rgb(234, 233, 233);
+    display: flex;
+    padding-bottom: 1rem;
+    height: 10vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mypropertyheading{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mypropertytext{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

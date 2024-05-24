@@ -1,0 +1,134 @@
+.card{
+    width: 40vw;
+    height: 55vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    /* padding: 20px; */
+    text-align: center;
+    display: flex;
+}
+.loginas{
+    width: 100%;
+    height: 19%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.buyeroption{
+    color: color-mix(in srgb, color percentage, color percentage);
+}
+
+.card>.signupForm{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card>.signupForm>h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.card>.signupForm>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card>.signupForm>div>label{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card>.signupForm>div>input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card>.signupForm>div>button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color:#54ca44;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card>.signupForm>div>button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.noaccounttext{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.alreadyamember{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 760px){
+    
+    .card>.signupForm{
+        align-items: center;
+    }
+    .card>.signupForm>h1{
+        font-size: 2rem;
+    }
+    .card>.signupForm>div>label{
+        font-size: 0.8rem;
+    }
+    .card>.signupForm>div>input{
+        height: 30px;
+    }
+    .card>.signupForm>div>button{
+        height: 35px;
+        font-size: 0.8rem;
+    }
+    .extraDetails > .rememberMecheck > label {
+        font-size: 0.7rem;
+    }
+    .extraDetails > .forgotPassword>a {
+        font-size: 0.7rem;
+    }
+    .alreadyamember{
+        font-size: 0.8rem;
+    }
+}
